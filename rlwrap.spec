@@ -1,5 +1,5 @@
 Name:           rlwrap
-Version:        0.28
+Version:        0.29
 Release:        %mkrel 1
 Epoch:          0
 Summary:        Readline wrapper
@@ -29,6 +29,9 @@ lists can be specified on the command line.
 %{__rm} -rf %{buildroot}
 %{makeinstall_std}
 
+%check
+%{make} check
+
 %clean
 %{__rm} -rf %{buildroot}
 
@@ -41,5 +44,3 @@ lists can be specified on the command line.
 %{_datadir}/rlwrap/coqtop
 %{_datadir}/rlwrap/ftp
 %{_datadir}/rlwrap/testclient
-
-
