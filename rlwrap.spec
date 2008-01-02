@@ -9,6 +9,7 @@ URL:            http://utopia.knoware.nl/~hlub/rlwrap/
 Source0:        http://utopia.knoware.nl/~hlub/rlwrap/rlwrap-%{version}.tar.gz
 BuildRequires:  libncurses-devel
 BuildRequires:  libreadline-devel
+BuildRoot:      %{_tmppath}/%{name}-%{epoch}:%{version}-%{release}-root
 
 %description
 rlwrap is a 'readline wrapper' that uses the GNU readline library to
