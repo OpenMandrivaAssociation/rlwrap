@@ -1,6 +1,6 @@
 Name:           rlwrap
 Version:        0.30
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          0
 Summary:        Readline wrapper
 Group:          Text tools
