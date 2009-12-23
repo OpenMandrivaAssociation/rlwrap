@@ -1,5 +1,5 @@
 Name:           rlwrap
-Version:        0.32
+Version:        0.34
 Release:        %mkrel 1
 Epoch:          0
 Summary:        Readline wrapper
