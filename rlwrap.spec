@@ -5,7 +5,7 @@ Epoch:          0
 Summary:        Readline wrapper
 Group:          Text tools
 License:        GPL
-URL:            http://utopia.knoware.nl/~hlub/rlwrap/
+URL:            https://utopia.knoware.nl/~hlub/rlwrap/
 Source0:        http://utopia.knoware.nl/~hlub/rlwrap/rlwrap-%{version}.tar.gz
 BuildRequires:  pkgconfig(ncurses)
 BuildRequires:  readline-devel
